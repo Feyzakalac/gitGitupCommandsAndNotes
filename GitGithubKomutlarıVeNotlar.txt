@@ -8,6 +8,11 @@ git branch -M main
 git remote add origin https://github.com/Feyzakalac/gitGitupCommandsAndNotes.git
 git push -u origin main
 
+Push an existing repository from the command line;
+git remote add origin https://github.com/Feyzakalac/gitGitupCommandsAndNotes.git
+git branch -M main
+git push -u origin main
+
 GITHUB’a gondermek:
 -Local’den git ile yaptigim versiyonlari github’a gondermek istiyorum
 -once Working space’de bekleyen bir sey olup olmadigini control et.
@@ -118,7 +123,7 @@ git push -u origin master
    git --help                     # Git yardım sayfasını göster 
    git remote -v                  # Uzak depo adresini ver
    git remote set-url origin url  # Uzak depo adresini değiştir
-   git remote rm origin           # Uzak depodaki adresi siler
+   git remote rm origin           # Uzak depodaki adresi siler (git remote set-url --delete)
    git log --since=<LIMIT>        # Iki zaman araligindaki commitleri goster
    git shortlog -s                # Commit yapanlarin isim ve commit sayilarini goster
    git shortlog -e                # Commit yapanlarin isim ve E-postalarini goster
